@@ -29,7 +29,7 @@ public class Application {
 
         // new 一个 女友
         GirlFriend girlFriend = new GirlFriend("张文欣",
-                "河南省", "平顶山市", "1999-09-15", "2021-12-04", "ofr0E6XBFPqmA4ShdqfN9m6rPfiY");
+                "河南省", "平顶山市", "1999-09-15", "2021-12-04", "ofr0E6cemq3JkOzU1DMxC7JjBh0s");
         Wx.sendTemplateMessage(MessageFactory.resolveMessage(girlFriend));
     }
 
